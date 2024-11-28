@@ -20,7 +20,7 @@ public class Menu {
                     + "3. Salir"));
 
             if (opciones == 3) {
-                JOptionPane.showMessageDialog(null, "Saliendo.........Listo");
+                JOptionPane.showMessageDialog(null, "Saliendo.........Hasta la Proxima vez");
                 break;
             }
 
@@ -37,14 +37,23 @@ public class Menu {
                     break;
                 }
                 case 2: {
-                    String usuario = JOptionPane.showInputDialog("Ingrese un nuevo usuario:");
+                    while (true){
+                        
+                        String usuario = JOptionPane.showInputDialog("Ingrese un nuevo usuario:");
                     String contraseña = JOptionPane.showInputDialog("Ingrese una nueva contraseña:");
-                    if (8 < contraseña) {
+                    if (contraseña.length() >= 8) {
+                        
+                    nuevoJugador(usuario, contraseña);
+                    break;
+                    }else{
+                    JOptionPane.showMessageDialog(null, "La contraseña tiene que ser mayor o igual que 8 caracters");
+                    
                         
                     }
                     
-                    nuevoJugador(usuario, contraseña);
-                    break;
+                    }
+                    
+                 break;   
                 }
                 default:
                     JOptionPane.showMessageDialog(null, "ERROR....... Opcion No valida favor intente nuevamente");
