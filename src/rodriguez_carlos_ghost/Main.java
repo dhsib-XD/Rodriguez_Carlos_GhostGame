@@ -11,13 +11,15 @@ import javax.swing.JOptionPane;
  *
  * @author CarlosXl
  */
-public class Main_Menu {
+public class Main {
 
     
-   
-    public void Menu() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+    public void MenuM () {
+        JOptionPane.showMessageDialog(null, "CONGRATS");
+    
+    
+}
+    
 }
     
 

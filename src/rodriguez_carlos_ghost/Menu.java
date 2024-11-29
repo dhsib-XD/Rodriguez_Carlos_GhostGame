@@ -10,7 +10,7 @@ public class Menu {
 
     public void MainMenu() {
         Scanner scanner = new Scanner(System.in);
-        Main_Menu main = new Main_Menu(); // Instancia del Main_Menu
+        Main MainM = new Main(); // Instancia del Main
         
         while (true) {
             int opciones;
@@ -32,7 +32,8 @@ public class Menu {
                     String contraseña = JOptionPane.showInputDialog("Ingrese su Contraseña:");
                     if (login(usuario, contraseña)) {
                         JOptionPane.showMessageDialog(null, "Usuario Encontrado");
-                        main.Menu();// Llamada al método Menu() en Main_Menu
+                        MainM.MenuM();
+                        
                     } else {
                         JOptionPane.showMessageDialog(null, "ERROR.........Usuario no encontrado o contraseña incorrecta.");
                     }
