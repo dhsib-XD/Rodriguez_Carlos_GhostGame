@@ -10,53 +10,49 @@ public class Menu {
 
     public void MainMenu() {
         Scanner scanner = new Scanner(System.in);
+        Main_Menu main = new Main_Menu(); // Instancia del Main_Menu
+        
         while (true) {
             int opciones;
 
-            opciones = Integer.parseInt(JOptionPane.showInputDialog("Bievenido a Ghost Game\n"
-                    +"Favor seleccionar una opcion:\n"
+            opciones = Integer.parseInt(JOptionPane.showInputDialog("Bienvenido a Ghost Game\n"
+                    + "Favor seleccionar una opción:\n"
                     + "1. Login\n"
                     + "2. Nuevo Jugador\n"
                     + "3. Salir"));
 
             if (opciones == 3) {
-                JOptionPane.showMessageDialog(null, "Saliendo.........Hasta la Proxima vez");
+                JOptionPane.showMessageDialog(null, "Saliendo.........Hasta la próxima vez");
                 break;
             }
 
             switch (opciones) {
                 case 1: {
-                    String usuario = JOptionPane.showInputDialog("Ingrese su Nuevo Usuario:");
-                    String contraseña = JOptionPane.showInputDialog("Ingrese su Nueva contraseña:");
+                    String usuario = JOptionPane.showInputDialog("Ingrese su Usuario:");
+                    String contraseña = JOptionPane.showInputDialog("Ingrese su Contraseña:");
                     if (login(usuario, contraseña)) {
                         JOptionPane.showMessageDialog(null, "Usuario Encontrado");
+                        main.Menu();// Llamada al método Menu() en Main_Menu
                     } else {
                         JOptionPane.showMessageDialog(null, "ERROR.........Usuario no encontrado o contraseña incorrecta.");
                     }
-                    
                     break;
                 }
                 case 2: {
-                    while (true){
-                        
+                    while (true) {
                         String usuario = JOptionPane.showInputDialog("Ingrese un nuevo usuario:");
-                    String contraseña = JOptionPane.showInputDialog("Ingrese una nueva contraseña:");
-                    if (contraseña.length() >= 8) {
-                        
-                    nuevoJugador(usuario, contraseña);
-                    break;
-                    }else{
-                    JOptionPane.showMessageDialog(null, "La contraseña tiene que ser mayor o igual que 8 caracters");
-                    
-                        
+                        String contraseña = JOptionPane.showInputDialog("Ingrese una nueva contraseña:");
+                        if (contraseña.length() >= 8) {
+                            nuevoJugador(usuario, contraseña);
+                            break;
+                        } else {
+                            JOptionPane.showMessageDialog(null, "La contraseña tiene que ser mayor o igual que 8 caracteres.");
+                        }
                     }
-                    
-                    }
-                    
-                 break;   
+                    break;   
                 }
                 default:
-                    JOptionPane.showMessageDialog(null, "ERROR....... Opcion No valida favor intente nuevamente");
+                    JOptionPane.showMessageDialog(null, "ERROR....... Opción No válida, favor intente nuevamente.");
             }
         }
     }
@@ -68,7 +64,7 @@ public class Menu {
             contadorUsuarios++;
             JOptionPane.showMessageDialog(null, "Usuario Creado!");
         } else {
-            JOptionPane.showMessageDialog(null, "Llego al limite de Usuarios disponibles ");
+            JOptionPane.showMessageDialog(null, "Llegó al límite de Usuarios disponibles.");
         }
     }
 
