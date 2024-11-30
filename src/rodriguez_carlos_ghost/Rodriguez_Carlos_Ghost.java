@@ -15,9 +15,10 @@ public class Rodriguez_Carlos_Ghost {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Menu menu = new Menu ();
+        MenuEntrada menu = new MenuEntrada ();
          menu.MainMenu();
         
     }
     
 }
+

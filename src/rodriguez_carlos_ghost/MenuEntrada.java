@@ -3,15 +3,16 @@ package rodriguez_carlos_ghost;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
-public class Menu {
+public class MenuEntrada {
 
     private String[][] usuariosContraseñas = new String[10][2]; // Arreglo bidimensional para almacenar usuarios y contraseñas
     private int contadorUsuarios = 0; // Contador de usuarios registrados
+    public String ActualJ = ""; // Variable de instancia para el usuario actual
 
     public void MainMenu() {
         Scanner scanner = new Scanner(System.in);
         Main MainM = new Main(); // Instancia del Main
-        
+
         while (true) {
             int opciones;
 
@@ -32,6 +33,7 @@ public class Menu {
                     String contraseña = JOptionPane.showInputDialog("Ingrese su Contraseña:");
                     if (login(usuario, contraseña)) {
                         JOptionPane.showMessageDialog(null, "Usuario Encontrado");
+                        ActualJ = usuario; // Actualiza la variable de instancia
                         MainM.MenuM();
                         
                     } else {
@@ -76,5 +78,9 @@ public class Menu {
             }
         }
         return false;
+    }
+
+    public String u() {
+        return ActualJ; // Retorna la variable de instancia
     }
 }
