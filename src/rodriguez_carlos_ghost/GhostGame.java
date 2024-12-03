@@ -69,134 +69,489 @@ public class GhostGame extends javax.swing.JFrame {
 
         jButton71.setBackground(new java.awt.Color(0, 0, 0));
         jButton71.setText("X5_Y2");
+        jButton71.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton71MouseClicked(evt);
+            }
+        });
+        jButton71.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton71ActionPerformed(evt);
+            }
+        });
 
         jButton72.setBackground(new java.awt.Color(255, 255, 255));
         jButton72.setForeground(new java.awt.Color(0, 0, 0));
         jButton72.setText("X5_Y1");
+        jButton72.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton72MouseClicked(evt);
+            }
+        });
+        jButton72.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton72ActionPerformed(evt);
+            }
+        });
 
         jButton73.setBackground(new java.awt.Color(255, 255, 255));
         jButton73.setForeground(new java.awt.Color(0, 0, 0));
         jButton73.setText("X5_Y5");
+        jButton73.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton73MouseClicked(evt);
+            }
+        });
+        jButton73.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton73ActionPerformed(evt);
+            }
+        });
 
         jButton52.setBackground(new java.awt.Color(0, 0, 0));
         jButton52.setText("X2_Y5");
+        jButton52.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton52MouseClicked(evt);
+            }
+        });
+        jButton52.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton52ActionPerformed(evt);
+            }
+        });
 
         jButton74.setBackground(new java.awt.Color(0, 0, 0));
         jButton74.setText("X5_Y6");
+        jButton74.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton74MouseClicked(evt);
+            }
+        });
+        jButton74.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton74ActionPerformed(evt);
+            }
+        });
 
         jButton53.setBackground(new java.awt.Color(255, 255, 255));
         jButton53.setForeground(new java.awt.Color(0, 0, 0));
         jButton53.setText("X2_Y4");
+        jButton53.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton53MouseClicked(evt);
+            }
+        });
+        jButton53.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton53ActionPerformed(evt);
+            }
+        });
 
         jButton75.setBackground(new java.awt.Color(255, 255, 255));
         jButton75.setForeground(new java.awt.Color(0, 0, 0));
         jButton75.setText("X5_Y3");
+        jButton75.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton75MouseClicked(evt);
+            }
+        });
+        jButton75.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton75ActionPerformed(evt);
+            }
+        });
 
         jButton54.setBackground(new java.awt.Color(255, 255, 255));
         jButton54.setForeground(new java.awt.Color(0, 0, 0));
         jButton54.setText("X2_Y2");
+        jButton54.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton54MouseClicked(evt);
+            }
+        });
+        jButton54.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton54ActionPerformed(evt);
+            }
+        });
 
         jButton76.setBackground(new java.awt.Color(0, 0, 0));
         jButton76.setText("X6_Y3");
+        jButton76.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton76MouseClicked(evt);
+            }
+        });
+        jButton76.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton76ActionPerformed(evt);
+            }
+        });
 
         jButton55.setBackground(new java.awt.Color(0, 0, 0));
         jButton55.setText("X2_Y3");
+        jButton55.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton55MouseClicked(evt);
+            }
+        });
+        jButton55.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton55ActionPerformed(evt);
+            }
+        });
 
         jButton77.setBackground(new java.awt.Color(255, 255, 255));
         jButton77.setForeground(new java.awt.Color(0, 0, 0));
         jButton77.setText("X6_Y4");
+        jButton77.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton77MouseClicked(evt);
+            }
+        });
+        jButton77.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton77ActionPerformed(evt);
+            }
+        });
 
         jButton56.setBackground(new java.awt.Color(0, 0, 0));
         jButton56.setText("X2_Y1");
+        jButton56.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton56MouseClicked(evt);
+            }
+        });
+        jButton56.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton56ActionPerformed(evt);
+            }
+        });
 
         jButton78.setBackground(new java.awt.Color(255, 255, 255));
         jButton78.setForeground(new java.awt.Color(0, 0, 0));
         jButton78.setText("X6_Y2");
+        jButton78.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton78MouseClicked(evt);
+            }
+        });
+        jButton78.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton78ActionPerformed(evt);
+            }
+        });
 
         jButton57.setBackground(new java.awt.Color(255, 255, 255));
         jButton57.setForeground(new java.awt.Color(0, 0, 0));
         jButton57.setText("X2_Y6");
+        jButton57.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton57MouseClicked(evt);
+            }
+        });
         jButton57.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton57ActionPerformed(evt);
             }
         });
 
-        jButton79.setBackground(new java.awt.Color(255, 255, 255));
+        jButton79.setBackground(new java.awt.Color(0, 204, 0));
         jButton79.setForeground(new java.awt.Color(0, 0, 0));
         jButton79.setText("X6_Y6");
+        jButton79.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton79MouseClicked(evt);
+            }
+        });
+        jButton79.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton79ActionPerformed(evt);
+            }
+        });
 
         jButton58.setBackground(new java.awt.Color(255, 255, 255));
         jButton58.setForeground(new java.awt.Color(0, 0, 0));
         jButton58.setText("X3_Y5");
+        jButton58.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton58MouseClicked(evt);
+            }
+        });
+        jButton58.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton58ActionPerformed(evt);
+            }
+        });
 
         jButton59.setBackground(new java.awt.Color(255, 255, 255));
         jButton59.setForeground(new java.awt.Color(0, 0, 0));
         jButton59.setText("X3_Y3");
+        jButton59.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton59MouseClicked(evt);
+            }
+        });
+        jButton59.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton59ActionPerformed(evt);
+            }
+        });
 
         jButton60.setBackground(new java.awt.Color(255, 255, 255));
         jButton60.setForeground(new java.awt.Color(0, 0, 0));
         jButton60.setText("X3_Y1");
+        jButton60.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton60MouseClicked(evt);
+            }
+        });
+        jButton60.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton60ActionPerformed(evt);
+            }
+        });
 
         jButton81.setBackground(new java.awt.Color(0, 0, 0));
         jButton81.setText("X6_Y5");
+        jButton81.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton81MouseClicked(evt);
+            }
+        });
+        jButton81.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton81ActionPerformed(evt);
+            }
+        });
 
         jButton61.setBackground(new java.awt.Color(0, 0, 0));
         jButton61.setText("X3_Y2");
+        jButton61.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton61MouseClicked(evt);
+            }
+        });
+        jButton61.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton61ActionPerformed(evt);
+            }
+        });
 
         jButton62.setBackground(new java.awt.Color(0, 0, 0));
         jButton62.setText("X3_Y6");
+        jButton62.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton62MouseClicked(evt);
+            }
+        });
+        jButton62.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton62ActionPerformed(evt);
+            }
+        });
 
         jButton63.setBackground(new java.awt.Color(0, 0, 0));
         jButton63.setText("X3_Y4");
+        jButton63.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton63MouseClicked(evt);
+            }
+        });
+        jButton63.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton63ActionPerformed(evt);
+            }
+        });
 
         jButton64.setBackground(new java.awt.Color(255, 255, 255));
         jButton64.setForeground(new java.awt.Color(0, 0, 0));
         jButton64.setText("X4_Y2");
+        jButton64.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton64MouseClicked(evt);
+            }
+        });
+        jButton64.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton64ActionPerformed(evt);
+            }
+        });
 
         jButton65.setBackground(new java.awt.Color(0, 0, 0));
         jButton65.setText("X4_Y3");
+        jButton65.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton65MouseClicked(evt);
+            }
+        });
+        jButton65.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton65ActionPerformed(evt);
+            }
+        });
 
         jButton66.setBackground(new java.awt.Color(0, 0, 0));
         jButton66.setText("X4_Y1");
+        jButton66.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton66MouseClicked(evt);
+            }
+        });
+        jButton66.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton66ActionPerformed(evt);
+            }
+        });
 
         jButton67.setBackground(new java.awt.Color(0, 0, 0));
         jButton67.setText("X4_Y5");
+        jButton67.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton67MouseClicked(evt);
+            }
+        });
+        jButton67.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton67ActionPerformed(evt);
+            }
+        });
 
         jButton68.setBackground(new java.awt.Color(255, 255, 255));
         jButton68.setForeground(new java.awt.Color(0, 0, 0));
         jButton68.setText("X4_Y4");
+        jButton68.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton68MouseClicked(evt);
+            }
+        });
+        jButton68.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton68ActionPerformed(evt);
+            }
+        });
 
         jButton69.setBackground(new java.awt.Color(255, 255, 255));
         jButton69.setForeground(new java.awt.Color(0, 0, 0));
         jButton69.setText("X4_Y6");
+        jButton69.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton69MouseClicked(evt);
+            }
+        });
+        jButton69.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton69ActionPerformed(evt);
+            }
+        });
 
         jButton70.setBackground(new java.awt.Color(0, 0, 0));
         jButton70.setText("X5_Y4");
+        jButton70.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton70MouseClicked(evt);
+            }
+        });
+        jButton70.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton70ActionPerformed(evt);
+            }
+        });
 
-        jButton51.setBackground(new java.awt.Color(0, 0, 0));
+        jButton51.setBackground(new java.awt.Color(51, 204, 0));
         jButton51.setText("X1_Y6");
+        jButton51.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton51MouseClicked(evt);
+            }
+        });
+        jButton51.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton51ActionPerformed(evt);
+            }
+        });
 
         jButton45.setBackground(new java.awt.Color(255, 255, 255));
         jButton45.setForeground(new java.awt.Color(0, 0, 0));
         jButton45.setText("X1_Y5");
+        jButton45.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton45MouseClicked(evt);
+            }
+        });
+        jButton45.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton45ActionPerformed(evt);
+            }
+        });
 
         jButton47.setBackground(new java.awt.Color(0, 0, 0));
         jButton47.setText("X1_Y4");
+        jButton47.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton47MouseClicked(evt);
+            }
+        });
+        jButton47.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton47ActionPerformed(evt);
+            }
+        });
 
         jButton48.setBackground(new java.awt.Color(0, 0, 0));
         jButton48.setText("X1_Y2");
+        jButton48.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton48MouseClicked(evt);
+            }
+        });
+        jButton48.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton48ActionPerformed(evt);
+            }
+        });
 
         jButton49.setBackground(new java.awt.Color(255, 255, 255));
         jButton49.setForeground(new java.awt.Color(0, 0, 0));
         jButton49.setText("X1_Y3");
+        jButton49.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton49MouseClicked(evt);
+            }
+        });
+        jButton49.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton49ActionPerformed(evt);
+            }
+        });
 
-        jButton50.setBackground(new java.awt.Color(255, 255, 255));
+        jButton50.setBackground(new java.awt.Color(51, 204, 0));
         jButton50.setForeground(new java.awt.Color(0, 0, 0));
         jButton50.setText("X1_Y1");
+        jButton50.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton50MouseClicked(evt);
+            }
+        });
+        jButton50.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton50ActionPerformed(evt);
+            }
+        });
 
-        jButton80.setBackground(new java.awt.Color(0, 0, 0));
+        jButton80.setBackground(new java.awt.Color(51, 204, 0));
         jButton80.setText("X6_Y1");
+        jButton80.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton80MouseClicked(evt);
+            }
+        });
+        jButton80.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton80ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -277,7 +632,7 @@ public class GhostGame extends javax.swing.JFrame {
                         .addComponent(jButton45, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButton51, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(134, Short.MAX_VALUE))
+                .addContainerGap(104, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -337,17 +692,17 @@ public class GhostGame extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(106, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(24, 24, 24)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(151, 151, 151))
+                .addContainerGap(233, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(44, 44, 44)
+                .addGap(19, 19, 19)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(196, Short.MAX_VALUE))
+                .addContainerGap(221, Short.MAX_VALUE))
         );
 
         pack();
@@ -357,6 +712,290 @@ public class GhostGame extends javax.swing.JFrame {
     private void jButton57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton57ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton57ActionPerformed
+
+    private void jButton50MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton50MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton50MouseClicked
+
+    private void jButton48MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton48MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton48MouseClicked
+
+    private void jButton49MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton49MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton49MouseClicked
+
+    private void jButton47MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton47MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton47MouseClicked
+
+    private void jButton45MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton45MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton45MouseClicked
+
+    private void jButton51MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton51MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton51MouseClicked
+
+    private void jButton56MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton56MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton56MouseClicked
+
+    private void jButton54MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton54MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton54MouseClicked
+
+    private void jButton55MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton55MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton55MouseClicked
+
+    private void jButton53MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton53MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton53MouseClicked
+
+    private void jButton52MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton52MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton52MouseClicked
+
+    private void jButton57MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton57MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton57MouseClicked
+
+    private void jButton60MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton60MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton60MouseClicked
+
+    private void jButton61MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton61MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton61MouseClicked
+
+    private void jButton59MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton59MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton59MouseClicked
+
+    private void jButton63MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton63MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton63MouseClicked
+
+    private void jButton58MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton58MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton58MouseClicked
+
+    private void jButton62MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton62MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton62MouseClicked
+
+    private void jButton66MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton66MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton66MouseClicked
+
+    private void jButton64MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton64MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton64MouseClicked
+
+    private void jButton65MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton65MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton65MouseClicked
+
+    private void jButton68MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton68MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton68MouseClicked
+
+    private void jButton67MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton67MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton67MouseClicked
+
+    private void jButton69MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton69MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton69MouseClicked
+
+    private void jButton72MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton72MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton72MouseClicked
+
+    private void jButton71MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton71MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton71MouseClicked
+
+    private void jButton75MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton75MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton75MouseClicked
+
+    private void jButton70MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton70MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton70MouseClicked
+
+    private void jButton73MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton73MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton73MouseClicked
+
+    private void jButton74MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton74MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton74MouseClicked
+
+    private void jButton80MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton80MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton80MouseClicked
+
+    private void jButton78MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton78MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton78MouseClicked
+
+    private void jButton76MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton76MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton76MouseClicked
+
+    private void jButton77MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton77MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton77MouseClicked
+
+    private void jButton81MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton81MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton81MouseClicked
+
+    private void jButton79MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton79MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton79MouseClicked
+
+    private void jButton50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton50ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton50ActionPerformed
+
+    private void jButton48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton48ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton48ActionPerformed
+
+    private void jButton49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton49ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton49ActionPerformed
+
+    private void jButton47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton47ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton47ActionPerformed
+
+    private void jButton45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton45ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton45ActionPerformed
+
+    private void jButton51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton51ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton51ActionPerformed
+
+    private void jButton56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton56ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton56ActionPerformed
+
+    private void jButton54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton54ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton54ActionPerformed
+
+    private void jButton55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton55ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton55ActionPerformed
+
+    private void jButton53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton53ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton53ActionPerformed
+
+    private void jButton52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton52ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton52ActionPerformed
+
+    private void jButton60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton60ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton60ActionPerformed
+
+    private void jButton61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton61ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton61ActionPerformed
+
+    private void jButton59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton59ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton59ActionPerformed
+
+    private void jButton63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton63ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton63ActionPerformed
+
+    private void jButton58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton58ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton58ActionPerformed
+
+    private void jButton62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton62ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton62ActionPerformed
+
+    private void jButton66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton66ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton66ActionPerformed
+
+    private void jButton64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton64ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton64ActionPerformed
+
+    private void jButton65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton65ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton65ActionPerformed
+
+    private void jButton68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton68ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton68ActionPerformed
+
+    private void jButton67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton67ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton67ActionPerformed
+
+    private void jButton69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton69ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton69ActionPerformed
+
+    private void jButton72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton72ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton72ActionPerformed
+
+    private void jButton71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton71ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton71ActionPerformed
+
+    private void jButton75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton75ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton75ActionPerformed
+
+    private void jButton70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton70ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton70ActionPerformed
+
+    private void jButton73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton73ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton73ActionPerformed
+
+    private void jButton74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton74ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton74ActionPerformed
+
+    private void jButton80ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton80ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton80ActionPerformed
+
+    private void jButton78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton78ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton78ActionPerformed
+
+    private void jButton76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton76ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton76ActionPerformed
+
+    private void jButton77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton77ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton77ActionPerformed
+
+    private void jButton81ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton81ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton81ActionPerformed
+
+    private void jButton79ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton79ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton79ActionPerformed
 
     /**
      * @param args the command line arguments
