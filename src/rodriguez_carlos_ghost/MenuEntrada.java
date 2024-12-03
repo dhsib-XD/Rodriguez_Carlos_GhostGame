@@ -37,7 +37,7 @@ public class MenuEntrada {
                         MainM.MenuM();
                         
                     } else {
-                        JOptionPane.showMessageDialog(null, "ERROR.........Usuario no encontrado o contraseña incorrecta.");
+                        JOptionPane.showMessageDialog(null, "ERROR.........Usuario no encontrado o contraseña incorrecta.","a",JOptionPane.ERROR_MESSAGE);
                     }
                     break;
                 }
@@ -49,13 +49,13 @@ public class MenuEntrada {
                             nuevoJugador(usuario, contraseña);
                             break;
                         } else {
-                            JOptionPane.showMessageDialog(null, "La contraseña tiene que ser mayor o igual que 8 caracteres.");
+                            JOptionPane.showMessageDialog(null, "La contraseña tiene que ser mayor o igual que 8 caracteres.","a",JOptionPane.ERROR_MESSAGE);
                         }
                     }
                     break;   
                 }
                 default:
-                    JOptionPane.showMessageDialog(null, "ERROR....... Opción No válida, favor intente nuevamente.");
+                    JOptionPane.showMessageDialog(null,"ERROR.....Por favor intente nuevamente","Login",JOptionPane.ERROR_MESSAGE);
             }
         }
     }

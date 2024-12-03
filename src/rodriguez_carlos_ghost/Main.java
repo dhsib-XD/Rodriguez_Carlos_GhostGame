@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
  * @author CarlosXl
  */
 public class Main extends MenuEntrada{    
-    public void MenuM () {
+    public boolean MenuM () {
         
         
         
@@ -30,7 +30,8 @@ public class Main extends MenuEntrada{
         switch (opcion2){
             
             case 1:{
-                
+                GhostGame boo = new GhostGame();
+                boo.setVisible(true);
                 
                 break;
                 
@@ -51,10 +52,12 @@ public class Main extends MenuEntrada{
                 break;
             }
             default: 
-                JOptionPane.showMessageDialog(null, "ERROR....... Opción No válida, favor intente nuevamente.");
+                JOptionPane.showMessageDialog(null, "ERROR....... Opción No válida, favor intente nuevamente.","a", JOptionPane.ERROR_MESSAGE);
         }
         
+        
         }
+        return (true);
     }
     
 }
