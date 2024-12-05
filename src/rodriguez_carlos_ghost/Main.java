@@ -2,16 +2,10 @@ package rodriguez_carlos_ghost;
 
 import javax.swing.JOptionPane;
 
-
-/**
- *
- * @author CarlosXl
- */
 public class Main extends MenuEntrada{    
-    public boolean MenuM () {
+    public boolean MenuM (String ActualJ) {
         
-        
-        
+       boo start = new boo();
         while (true){
         int opcion2 = Integer.parseInt(JOptionPane.showInputDialog("Bienvenido\n"
                 + "Favor selecione una opcion\n"
@@ -30,8 +24,9 @@ public class Main extends MenuEntrada{
         switch (opcion2){
             
             case 1:{
-                GhostGame boo = new GhostGame();
-                boo.setVisible(true);
+                
+              
+                
                 
                 break;
                 

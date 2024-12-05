@@ -23,7 +23,7 @@ public class MenuEntrada {
                     + "2. Nuevo Jugador\n"
                     + "3. Salir"));
         } catch (NumberFormatException e) {
-            JOptionPane.showMessageDialog(null, "Por favor ingrese un número válido.", "Error", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Por favor ingrese un número válido.","Error", JOptionPane.ERROR_MESSAGE);
             continue;
         }
 
@@ -39,7 +39,7 @@ public class MenuEntrada {
                 if (login(usuario, contraseña)) {
                     JOptionPane.showMessageDialog(null, "Usuario Encontrado");
                     ActualJ = usuario; // Actualiza la variable de instancia
-                    MainM.MenuM();
+                    MainM.MenuM(ActualJ);
                 } else {
                     JOptionPane.showMessageDialog(null, "ERROR.........Usuario no encontrado o contraseña incorrecta.", "Error", JOptionPane.ERROR_MESSAGE);
                 }
